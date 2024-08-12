@@ -1,26 +1,24 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
+import { getImageUrl } from "../../utils";
 
 const Navbar = () => {
-  const [isOpen, setToOpen] = useState(false);
+  // const [isOpen, setToOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setToOpen(!isOpen);
-  };
+  // const toggleMenu = () => {
+  //   setToOpen(!isOpen);
+  // };
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title}>Portfolio</a>
+      <a className={styles.title}>
+        Portfolio</a>
       <div className={styles.menu}>
-        <div onClick={toggleMenu} className={isOpen ? `${styles["menu-container"]} ${styles["is-menu-open"]}` : styles["menu-container"]}>
-          < div className={styles.bars}>
-            <span></span>
-            <span></span>
-            <span></span>
-            <div className={styles["other-bar"]}></div>
-          </div>
-        </div>
-        <ul className={styles.menuitems}>
+        <img className={styles.menuBtn}
+          src={getImageUrl("icon.png")}
+          alt="menu-button" >
+        </img>
+        <ul className={styles.menuItems}>
           <li>
             <a>Home</a>
           </li>
@@ -37,6 +35,6 @@ const Navbar = () => {
       </div>
     </nav >
   )
-};
+}
 
 export default Navbar;
