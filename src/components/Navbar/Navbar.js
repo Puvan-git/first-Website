@@ -1,13 +1,9 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
-import { getImageUrl } from "../../utils";
+import { getImageUrl } from "../../utils"
 
 const Navbar = () => {
-  // const [isOpen, setToOpen] = useState(false);
-
-  // const toggleMenu = () => {
-  //   setToOpen(!isOpen);
-  // };
+  const [isOpen, setToOpen] = useState(false);
 
   return (
     <nav className={styles.navbar}>
@@ -15,21 +11,23 @@ const Navbar = () => {
         Portfolio</a>
       <div className={styles.menu}>
         <img className={styles.menuBtn}
-          src={getImageUrl("icon.png")}
+          src={isOpen ? "/assets/closeIcon.png" : "/assets/icon.png"}
+          onClick={() => setToOpen(!isOpen)}
           alt="menu-button" >
         </img>
-        <ul className={styles.menuItems}>
+        <ul className={`${styles.menuitems} ${isOpen && styles.menuOpen}`}
+          onClick={() => setToOpen(false)}>
           <li>
-            <a>Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a>Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a>About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
