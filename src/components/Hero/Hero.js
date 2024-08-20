@@ -10,7 +10,7 @@ const Hero = () => {
             </p>
             <a href="mailto:myemail@live.com.sg" className={styles.contactBtn}>Contact Me</a>
         </div>
-        <img src="/assets/icon.png" alt="Hero" className={styles.heroImg}></img>
+        <img src="/assets/heroImage2.jpg" alt="Hero" className={styles.heroImg}></img>
         <div className={styles.topBlur}></div>
         <div className={styles.bottomBlur}></div>
     </section>
