@@ -33,6 +33,12 @@
     text-decoration: none;
 }
 
+@media screen and (min-width: 840px) {
+    .menuBtn {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 830px) {
     .navbar {
         flex-direction: column;
