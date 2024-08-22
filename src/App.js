@@ -1,10 +1,10 @@
-import styles from "./App.css";
-import Layout from "./components/Layout/Layout";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { NavBar } from "./components/NavBar";
 
 function App() {
   return (
-    <div className={styles.App}>
-      <Layout />
+    <div className="App">
+      <NavBar />
     </div>
   );
 }

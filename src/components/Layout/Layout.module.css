@@ -1,9 +1,0 @@
-@import "/src/vars.css";
-
-.Layout {
-    background-color: var(--color-bg);
-    width: 100%;
-    height: 100vh;
-
-    color: white;
-}
