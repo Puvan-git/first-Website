@@ -24,19 +24,21 @@ export const Banner = () => {
     const tick = () => {
         let i = loopNum % toRotate.length;
         let fullText = toRotate[i];
-        let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0,);
+        let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
 
         setText(updatedText);
 
         if (isDeleting) {
             setDelta(prevDelta => prevDelta / 2);
-            console.log('see');
+            console.log('deleting text');
         }
 
         if (!isDeleting && updatedText === fullText) {
+            console.log('full text out');
             setIsDeleting(true);
             setDelta(period);
         } else if (isDeleting && updatedText === '') {
+            console.log('fully deleted, blank now');
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
             setDelta(500);
