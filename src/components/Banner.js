@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/header-img.svg";
 import { useEffect, useState } from "react";
+import headerImg from "../assets/img/header-img.svg";
 
 export const Banner = () => {
     const toRotate = ["Web Developer", "Frontend Developer", "Data Analyst"];
@@ -51,9 +51,19 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{"Hi i'm Puvan, a "}<span className="wrap">{text}</span></h1>
-                        <p>Puvan</p>
-                        <button onClick={() => console.log('connect')}>Contact Me <ArrowRightCircle size={20}></ArrowRightCircle></button>
+                        <h1>{"Hi i'm Puvan, a "}<span></span><span className="wrap">{text}</span></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                            obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                            nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                            tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+                            quia.</p>
+                        <button onClick={() => console.log('connect')}>
+                            Contact Me <ArrowRightCircle size={20}>
+                            </ArrowRightCircle>
+                        </button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header Img" />
