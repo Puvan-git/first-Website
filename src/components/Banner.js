@@ -18,7 +18,7 @@ export const Banner = () => {
         }, delta)
 
         return () => { clearInterval(ticker) };
-    }, [text])
+    }, [text, delta])
 
 
     const tick = () => {
@@ -51,7 +51,7 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{"Hi i'm webcoded "}<span className="wrap">{text}</span></h1>
+                        <h1>{"Hi i'm Puvan, a "}<span className="wrap">{text}</span></h1>
                         <p>Puvan</p>
                         <button onClick={() => console.log('connect')}>Contact Me <ArrowRightCircle size={20}></ArrowRightCircle></button>
                     </Col>
