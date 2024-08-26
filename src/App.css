@@ -504,7 +504,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     height: 100%;
 }
 
-.proj-txtx {
+.proj-txt {
     position: absolute;
     text-align: center;
     top: 65%;
@@ -515,19 +515,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 100%;
 }
 
-.proj-imgbx:hover .proj-txtx {
+.proj-imgbx:hover .proj-txt {
     top: 50%;
     opacity: 1;
 }
 
-.proj-txtx h4 {
+.proj-txt h4 {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1.1em;
 }
 
-.proj-txtx span {
+.proj-txt span {
     font-style: italic;
     font-weight: 400;
     font-size: 15px;

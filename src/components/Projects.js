@@ -8,18 +8,18 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 export const Projects = () => {
     const projects = [
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Federated Learning",
+            description: "Revolutionising Conventional Machine Learning",
             imgUrl: projImg1,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Churn Attrition",
+            description: "Predicting customer's churn value to further increacse effectiveness of marketing campaigns",
             imgUrl: projImg2,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Minesweepers",
+            description: "Optimised Shortest Path algorithm for minesweepers",
             imgUrl: projImg3,
         },
     ];
@@ -43,12 +43,12 @@ export const Projects = () => {
                             {
                                 projects.map((project, index) => {
                                     return (
-                                        <ProjectCard>
+                                        <ProjectCard
                                             key={index}
                                             title={project.title}
                                             description={project.description}
                                             imgUrl={project.imgUrl}
-                                        </ProjectCard>
+                                        />
                                     )
                                 })
                             }
