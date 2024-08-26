@@ -9,7 +9,7 @@ export const Banner = () => {
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
 
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
+    const [delta, setDelta] = useState(300 - Math.random() * 10);
     const period = 2000; // dictates how much time passes by the time one letter types out
 
     useEffect(() => {
@@ -51,7 +51,7 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{"Hi i'm Puvan, a "}<span></span><span className="wrap">{text}</span></h1>
+                        <h1>{"Hi i'm Puvan, a"}<br></br><span className="wrap">{text}</span></h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                             molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                             numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
@@ -61,7 +61,8 @@ export const Banner = () => {
                             tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
                             quia.</p>
                         <button onClick={() => console.log('connect')}>
-                            Contact Me <ArrowRightCircle size={20}>
+                            Contact Me
+                            <ArrowRightCircle size={20}>
                             </ArrowRightCircle>
                         </button>
                     </Col>
