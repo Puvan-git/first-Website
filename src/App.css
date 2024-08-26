@@ -294,7 +294,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1;
-    margin-bottom: 20px;
+    margin-bottom: 3px;
     display: block;
     min-height: 200px;
 }
@@ -311,7 +311,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     color: #fff;
     font-weight: 700;
     font-size: 20px;
-    margin-top: 60px;
+    margin-top: 40px;
     letter-spacing: 0.8px;
     display: flex;
     align-items: center;
@@ -419,6 +419,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 56%;
 }
 
+/* 
 .project .nav.nav-pills {
     width: 72%;
     margin: 0 auto;
@@ -465,6 +466,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
 }
+*/
 
 .nav-link#projects-tabs-tab-first {
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -541,7 +543,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     z-index: -4;
 }
 
-/************ Projects ************/
+/************ Contact ************/
 .contact {
     background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
     padding: 60px 0 200px 0;
