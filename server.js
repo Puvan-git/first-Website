@@ -61,3 +61,7 @@ router.post("/contact", (req, res) => {
         }
     });
 });
+
+// Start the server on port 3000
+app.listen(3001, '127.0.0.1');
+console.log('Node server running on port 3001');

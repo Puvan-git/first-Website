@@ -57,7 +57,7 @@ export const Contact = () => {
                         <form onSubmit={handleSubmit}>
                             <Row>
                                 <Col sm={12} className="px-1">
-                                    <input type="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('Email', e.target.value)}></input>
+                                    <input type="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)}></input>
                                 </Col>
                                 <Col sm={6} className="px-1">
                                     <input type="text" value={formDetails.name} placeholder="Name" onChange={(e) => onFormUpdate('name', e.target.value)}></input>
