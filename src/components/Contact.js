@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import contactImg from "../assets/img/contact-img.svg";
 
 
