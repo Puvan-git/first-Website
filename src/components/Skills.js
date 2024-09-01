@@ -37,14 +37,12 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                                molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                                numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                                optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                                obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                                nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-                                tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-                                quia.</p>
+                            <p>Every project demands a unique set of tools and technologies. My skills
+                                carousel isn't just a list; it's a portfolio of possibilities—each skill
+                                a building block for innovation and problem-solving. Endless possibilities mean
+                                endless problems that could arise as well, it is my job as a developer to break it
+                                down recursively into tinier chunks to be handled with. The obstacle is only as large
+                                as we imagine it to be!</p>
                             <Carousel
                                 responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
@@ -52,12 +50,16 @@ export const Skills = () => {
                                     <h5>Web Development</h5>
                                 </div>
                                 <div className="item">
+                                    <img src={meter3} alt="carouselImage"></img>
+                                    <h5>Data Analytics</h5>
+                                </div>
+                                <div className="item">
                                     <img src={meter2} alt="carouselImage"></img>
                                     <h5>Product Management</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter3} alt="carouselImage"></img>
-                                    <h5>Data Analysis</h5>
+                                    <h5>Machine Learning</h5>
                                 </div>
                                 {/* <div className="item">
                                     <img src={meter4} alt="Image"></img>

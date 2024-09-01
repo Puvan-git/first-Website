@@ -30,14 +30,10 @@ export const Projects = () => {
                 <Row>
                     <Col size={12}>
                         <h2>Projects</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                            obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                            nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-                            tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-                            quia.
+                        <p>Herein lies the result of the effort of the work done. Gruelling as it is,
+                            it was most definitely fruitful, the idea of seeing through a project from start
+                            to end proved to be one of a worthwhile journey. Project management has once again
+                            been proved to be <b>essential</b>!
                         </p>
                         <Row>
                             {
