@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
+import projImg1 from "../assets/img/federated_UI.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -30,9 +30,9 @@ export const Projects = () => {
                 <Row>
                     <Col size={12}>
                         <h2>Projects</h2>
-                        <p>Herein lies the result of the effort of the work done. Gruelling as it is,
+                        <p>Herein lies the result of the effort of the work done. Gruelling as it was,
                             it was most definitely fruitful, the idea of seeing through a project from start
-                            to end proved to be one of a worthwhile journey. Project management has once again
+                            to end continously proved to be one of a worthwhile and enjoyable journey. Project management has once again
                             been proved to be <b>essential</b>!
                         </p>
                         <Row>
